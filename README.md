@@ -3,10 +3,15 @@ Teste de seleção
 
 # Configuração do Banco de Dados
 -Executar script do diretorio: teste\src\main\resources\scripts\teste-eicon.sql
+
 -Abrir a Classe TesteApplication.java
+
 -Alterar os dados abaixo de acordo com seu banco de dados
+
     dataSource.setUrl("jdbc:mysql://localhost:3306/eicon"); //Informações do banco/schema
+    
     dataSource.setUsername("root");//Usuario
+    
     dataSource.setPassword("Cesar33775644");//Senha
 
 # Urls Formato Json
