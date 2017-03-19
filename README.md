@@ -33,6 +33,7 @@ http://localhost:8080/teste/api/service/json/pedido/data/19-03-2017
 Exemplo arquivo Json:
 
 {"pedido":
+
 	[{
       "numeroControle": 50,
       "data": "19/03/2017",
@@ -41,6 +42,7 @@ Exemplo arquivo Json:
       "quantidade": 5,
       "codigoCliente": 1
     },
+    
 	{
       "numeroControle": 51,
       "data": "17/03/2017",
@@ -49,6 +51,7 @@ Exemplo arquivo Json:
       "quantidade": 11,
       "codigoCliente": 1
     }]
+    
 }
 
 # Urls Formato XML
@@ -68,15 +71,22 @@ http://localhost:8080/teste/api/service/xml/pedido/data/19-03-2017
 (Após a última barra a data desejada no formato dd-MM-yyyy)
 
 Exemplo arquivo XML:
+
+
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <pedidos>
-    <pedido>
-        <codigoCliente>1</codigoCliente>
-        <data>17/03/2017</data>
-        <nome>Farofa</nome>
-        <numeroControle>54</numeroControle>
-        <quantidade>11</quantidade>
-        <valor>100.0</valor>
-        <valorTotal>990.0</valorTotal>
-    </pedido>
+	
+    <pedidos>
+	    <pedido>    
+		<codigoCliente>1</codigoCliente>
+		<data>17/03/2017</data>
+		<nome>Farofa</nome>
+		<numeroControle>84</numeroControle>
+		<quantidade>11</quantidade>
+		<valor>100.0</valor>	
+	    </pedido>
+    </pedidos>
+    
 </pedidos>
+
