@@ -1,7 +1,7 @@
 # eicon-teste
 Teste de seleção
 
-# Urls Json
+# Urls Formato Json
 
 -Cadastro de pedidos
 http://localhost:8080/teste/api/service/json/pedido
@@ -17,7 +17,7 @@ http://localhost:8080/teste/api/service/json/pedido/1
 http://localhost:8080/teste/api/service/json/pedido/data/19-03-2017
 (Após a última barra a data desejada no formato dd-MM-yyyy)
 
-# Urls XML
+# Urls Formato XML
 
 -Cadastro de pedidos
 http://localhost:8080/teste/api/service/xml/pedido
