@@ -1,36 +1,35 @@
-# eicon-teste
-Teste de seleção
+# eicon-teste (Rest Service)
 
-# Configuração do Banco de Dados
--Executar script do diretorio: teste\src\main\resources\scripts\teste-eicon.sql
+# Database Panel
+-Execute directory script: test \ src \ main \ resources \ scripts \ test-eicon.sql
 
--Abrir a Classe TesteApplication.java
+-Open the TestApplication.java Class
 
--Alterar os dados abaixo de acordo com seu banco de dados
+-change the data below according to the database
 
-    dataSource.setUrl("jdbc:mysql://localhost:3306/eicon"); //Informações do banco/schema
+    dataSource.setUrl("jdbc:mysql://localhost:3306/eicon"); //database information/schema
     
-    dataSource.setUsername("root");//Usuario
+    dataSource.setUsername("root");//User
     
-    dataSource.setPassword("Cesar33775644");//Senha
+    dataSource.setPassword("Cesar33775644");//Password
 
-# Urls Formato Json
+# Urls Json Formatt
 
--Cadastro de pedidos
+-Ordem form
 http://localhost:8080/teste/api/service/json/pedido
 
--Listar todos pedidos
+-List all orders
 http://localhost:8080/teste/api/service/json/listPedido
 
--Buscar pedido pelo numero de controle
+-Searching a order by your number control
 http://localhost:8080/teste/api/service/json/pedido/1
-(Após a última barra o numero de controle desejado.)
+(After the last `/`)
 
--Buscar pedidos pela data
+-Searching a order by date
 http://localhost:8080/teste/api/service/json/pedido/data/19-03-2017
 (Após a última barra a data desejada no formato dd-MM-yyyy)
 
-Exemplo arquivo Json:
+Exemple Json Archive:
 
 {"pedido":
 
@@ -54,23 +53,23 @@ Exemplo arquivo Json:
     
 }
 
-# Urls Formato XML
+# Urls XML Formatt
 
--Cadastro de pedidos
+-Ordem form
 http://localhost:8080/teste/api/service/xml/pedido
 
--Listar todos pedidos
+-List all orders
 http://localhost:8080/teste/api/service/xml/listPedido
 
--Buscar pedido pelo numero de controle
+-Searching a order by your number control
 http://localhost:8080/teste/api/service/xml/pedido/1
 (Após a última barra o numero de controle desejado.)
 
--Buscar pedidos pela data
+-Searching a order by date
 http://localhost:8080/teste/api/service/xml/pedido/data/19-03-2017
 (Após a última barra a data desejada no formato dd-MM-yyyy)
 
-Exemplo arquivo XML:
+Exemple XML Archive:
 
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
