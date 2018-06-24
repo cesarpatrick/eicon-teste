@@ -23,11 +23,11 @@ http://localhost:8080/teste/api/service/json/listPedido
 
 -Searching a order by your number control
 http://localhost:8080/teste/api/service/json/pedido/1
-(After the last `/`)
+(After the last `/` put the number control)
 
 -Searching a order by date
 http://localhost:8080/teste/api/service/json/pedido/data/19-03-2017
-(Após a última barra a data desejada no formato dd-MM-yyyy)
+(After the last `/` put in this formatt dd-MM-yyyy)
 
 Exemple Json Archive:
 
@@ -63,11 +63,11 @@ http://localhost:8080/teste/api/service/xml/listPedido
 
 -Searching a order by your number control
 http://localhost:8080/teste/api/service/xml/pedido/1
-(Após a última barra o numero de controle desejado.)
+(After the last `/` put the number control)
 
 -Searching a order by date
 http://localhost:8080/teste/api/service/xml/pedido/data/19-03-2017
-(Após a última barra a data desejada no formato dd-MM-yyyy)
+(After the last `/` put in this formatt dd-MM-yyyy)
 
 Exemple XML Archive:
 
